@@ -1,0 +1,69 @@
+{
+  "name": "social-media-buttons",
+  "version": "1.0.0",
+  "description": "Botões para rede sociais",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib --copy-files",
+    "prepublish": "babel src -d lib --copy-files",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "publish-docs": "npm run styleguide:build && npm run gh-pages",
+    "gh-pages": "./node_modules/.bin/gh-pages -d styleguide",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deltasge/social-media-buttons.git"
+  },
+  "keywords": [
+    "Components",
+    "Material-UI",
+    "Material",
+    "UI",
+    "Social",
+    "Media",
+    "Buttons"
+  ],
+  "author": "Delta Software",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deltasge/social-media-buttons/issues"
+  },
+  "homepage": "https://github.com/deltasge/social-media-buttons#readme",
+  "devDependencies": {
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/utils": "^3.0.0-alpha.3",
+    "@webpack-blocks/babel6": "^0.4.1",
+    "@webpack-blocks/postcss": "^0.4.3",
+    "@webpack-blocks/webpack2": "^0.4.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-direct-import": "^0.4.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.16.0",
+    "gh-pages": "^1.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-styleguidist": "^7.3.9",
+    "standard": "^12.0.1"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/utils": "^3.0.0-alpha.3",
+    "react": "^16.7.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  }
+}
