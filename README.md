@@ -1,2 +1,2 @@
-# SocialMediaButtons
-Botões para rede sociais
+# Delta Components
+- Botões para rede sociais
