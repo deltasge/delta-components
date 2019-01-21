@@ -1,7 +1,7 @@
 {
-  "name": "social-media-buttons",
+  "name": "delta-components",
   "version": "1.0.0",
-  "description": "Botões para rede sociais",
+  "description": "Componentes Padrões",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib --copy-files",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deltasge/social-media-buttons.git"
+    "url": "git+https://github.com/deltasge/delta-components.git"
   },
   "keywords": [
     "Components",
@@ -28,9 +28,9 @@
   "author": "Delta Software",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deltasge/social-media-buttons/issues"
+    "url": "https://github.com/deltasge/delta-components/issues"
   },
-  "homepage": "https://github.com/deltasge/social-media-buttons#readme",
+  "homepage": "https://github.com/deltasge/delta-components#readme",
   "devDependencies": {
     "@material-ui/core": "^3.9.0",
     "@material-ui/utils": "^3.0.0-alpha.3",
