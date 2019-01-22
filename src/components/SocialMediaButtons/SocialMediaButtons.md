@@ -1,5 +1,4 @@
 ```
-const { SvgIcon } = require('@material-ui/core/SvgIcon');
 const Facebook = require('mdi-material-ui/Facebook');
 const Google = require('mdi-material-ui/Google');
 
