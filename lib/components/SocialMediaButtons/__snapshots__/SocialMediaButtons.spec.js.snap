@@ -1,0 +1,773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SocialMediaButtons /> matches the snapshot 1`] = `
+<WithStyles(SocialMediaButtons)
+  itens={
+    Array [
+      Object {
+        "background": "facebook",
+        "color": "white",
+        "icon": [Function],
+        "link": "/auth/facebook/",
+      },
+      Object {
+        "background": "google",
+        "color": "white",
+        "icon": [Function],
+        "link": "/auth/google/",
+      },
+    ]
+  }
+>
+  <SocialMediaButtons
+    classes={
+      Object {
+        "avatar": "SocialMediaButtons-avatar-1",
+        "backgroundfacebook": "SocialMediaButtons-backgroundfacebook-4",
+        "backgroundgoogle": "SocialMediaButtons-backgroundgoogle-6",
+        "backgroundlinkedin": "SocialMediaButtons-backgroundlinkedin-2",
+        "backgroundwhite": "SocialMediaButtons-backgroundwhite-8",
+        "colorfacebook": "SocialMediaButtons-colorfacebook-5",
+        "colorgoogle": "SocialMediaButtons-colorgoogle-7",
+        "colorlinkedin": "SocialMediaButtons-colorlinkedin-3",
+        "colorwhite": "SocialMediaButtons-colorwhite-9",
+      }
+    }
+    itens={
+      Array [
+        Object {
+          "background": "facebook",
+          "color": "white",
+          "icon": [Function],
+          "link": "/auth/facebook/",
+        },
+        Object {
+          "background": "google",
+          "color": "white",
+          "icon": [Function],
+          "link": "/auth/google/",
+        },
+      ]
+    }
+  >
+    <WithStyles(Grid)
+      alignItems="center"
+      container={true}
+      justify="center"
+      spacing={0}
+    >
+      <Grid
+        alignContent="stretch"
+        alignItems="center"
+        classes={
+          Object {
+            "align-content-xs-center": "MuiGrid-align-content-xs-center-22",
+            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-24",
+            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-23",
+            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-26",
+            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-25",
+            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-21",
+            "align-items-xs-center": "MuiGrid-align-items-xs-center-18",
+            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-20",
+            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-19",
+            "container": "MuiGrid-container-10",
+            "direction-xs-column": "MuiGrid-direction-xs-column-13",
+            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-14",
+            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-15",
+            "grid-lg-1": "MuiGrid-grid-lg-1-81",
+            "grid-lg-10": "MuiGrid-grid-lg-10-90",
+            "grid-lg-11": "MuiGrid-grid-lg-11-91",
+            "grid-lg-12": "MuiGrid-grid-lg-12-92",
+            "grid-lg-2": "MuiGrid-grid-lg-2-82",
+            "grid-lg-3": "MuiGrid-grid-lg-3-83",
+            "grid-lg-4": "MuiGrid-grid-lg-4-84",
+            "grid-lg-5": "MuiGrid-grid-lg-5-85",
+            "grid-lg-6": "MuiGrid-grid-lg-6-86",
+            "grid-lg-7": "MuiGrid-grid-lg-7-87",
+            "grid-lg-8": "MuiGrid-grid-lg-8-88",
+            "grid-lg-9": "MuiGrid-grid-lg-9-89",
+            "grid-lg-auto": "MuiGrid-grid-lg-auto-79",
+            "grid-lg-true": "MuiGrid-grid-lg-true-80",
+            "grid-md-1": "MuiGrid-grid-md-1-67",
+            "grid-md-10": "MuiGrid-grid-md-10-76",
+            "grid-md-11": "MuiGrid-grid-md-11-77",
+            "grid-md-12": "MuiGrid-grid-md-12-78",
+            "grid-md-2": "MuiGrid-grid-md-2-68",
+            "grid-md-3": "MuiGrid-grid-md-3-69",
+            "grid-md-4": "MuiGrid-grid-md-4-70",
+            "grid-md-5": "MuiGrid-grid-md-5-71",
+            "grid-md-6": "MuiGrid-grid-md-6-72",
+            "grid-md-7": "MuiGrid-grid-md-7-73",
+            "grid-md-8": "MuiGrid-grid-md-8-74",
+            "grid-md-9": "MuiGrid-grid-md-9-75",
+            "grid-md-auto": "MuiGrid-grid-md-auto-65",
+            "grid-md-true": "MuiGrid-grid-md-true-66",
+            "grid-sm-1": "MuiGrid-grid-sm-1-53",
+            "grid-sm-10": "MuiGrid-grid-sm-10-62",
+            "grid-sm-11": "MuiGrid-grid-sm-11-63",
+            "grid-sm-12": "MuiGrid-grid-sm-12-64",
+            "grid-sm-2": "MuiGrid-grid-sm-2-54",
+            "grid-sm-3": "MuiGrid-grid-sm-3-55",
+            "grid-sm-4": "MuiGrid-grid-sm-4-56",
+            "grid-sm-5": "MuiGrid-grid-sm-5-57",
+            "grid-sm-6": "MuiGrid-grid-sm-6-58",
+            "grid-sm-7": "MuiGrid-grid-sm-7-59",
+            "grid-sm-8": "MuiGrid-grid-sm-8-60",
+            "grid-sm-9": "MuiGrid-grid-sm-9-61",
+            "grid-sm-auto": "MuiGrid-grid-sm-auto-51",
+            "grid-sm-true": "MuiGrid-grid-sm-true-52",
+            "grid-xl-1": "MuiGrid-grid-xl-1-95",
+            "grid-xl-10": "MuiGrid-grid-xl-10-104",
+            "grid-xl-11": "MuiGrid-grid-xl-11-105",
+            "grid-xl-12": "MuiGrid-grid-xl-12-106",
+            "grid-xl-2": "MuiGrid-grid-xl-2-96",
+            "grid-xl-3": "MuiGrid-grid-xl-3-97",
+            "grid-xl-4": "MuiGrid-grid-xl-4-98",
+            "grid-xl-5": "MuiGrid-grid-xl-5-99",
+            "grid-xl-6": "MuiGrid-grid-xl-6-100",
+            "grid-xl-7": "MuiGrid-grid-xl-7-101",
+            "grid-xl-8": "MuiGrid-grid-xl-8-102",
+            "grid-xl-9": "MuiGrid-grid-xl-9-103",
+            "grid-xl-auto": "MuiGrid-grid-xl-auto-93",
+            "grid-xl-true": "MuiGrid-grid-xl-true-94",
+            "grid-xs-1": "MuiGrid-grid-xs-1-39",
+            "grid-xs-10": "MuiGrid-grid-xs-10-48",
+            "grid-xs-11": "MuiGrid-grid-xs-11-49",
+            "grid-xs-12": "MuiGrid-grid-xs-12-50",
+            "grid-xs-2": "MuiGrid-grid-xs-2-40",
+            "grid-xs-3": "MuiGrid-grid-xs-3-41",
+            "grid-xs-4": "MuiGrid-grid-xs-4-42",
+            "grid-xs-5": "MuiGrid-grid-xs-5-43",
+            "grid-xs-6": "MuiGrid-grid-xs-6-44",
+            "grid-xs-7": "MuiGrid-grid-xs-7-45",
+            "grid-xs-8": "MuiGrid-grid-xs-8-46",
+            "grid-xs-9": "MuiGrid-grid-xs-9-47",
+            "grid-xs-auto": "MuiGrid-grid-xs-auto-37",
+            "grid-xs-true": "MuiGrid-grid-xs-true-38",
+            "item": "MuiGrid-item-11",
+            "justify-xs-center": "MuiGrid-justify-xs-center-27",
+            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-28",
+            "justify-xs-space-around": "MuiGrid-justify-xs-space-around-30",
+            "justify-xs-space-between": "MuiGrid-justify-xs-space-between-29",
+            "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-31",
+            "spacing-xs-16": "MuiGrid-spacing-xs-16-33",
+            "spacing-xs-24": "MuiGrid-spacing-xs-24-34",
+            "spacing-xs-32": "MuiGrid-spacing-xs-32-35",
+            "spacing-xs-40": "MuiGrid-spacing-xs-40-36",
+            "spacing-xs-8": "MuiGrid-spacing-xs-8-32",
+            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-16",
+            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-17",
+            "zeroMinWidth": "MuiGrid-zeroMinWidth-12",
+          }
+        }
+        component="div"
+        container={true}
+        direction="row"
+        item={false}
+        justify="center"
+        lg={false}
+        md={false}
+        sm={false}
+        spacing={0}
+        wrap="wrap"
+        xl={false}
+        xs={false}
+        zeroMinWidth={false}
+      >
+        <div
+          className="MuiGrid-container-10 MuiGrid-align-items-xs-center-18 MuiGrid-justify-xs-center-27"
+        >
+          <WithStyles(Grid)
+            item={true}
+            key="0"
+          >
+            <Grid
+              alignContent="stretch"
+              alignItems="stretch"
+              classes={
+                Object {
+                  "align-content-xs-center": "MuiGrid-align-content-xs-center-22",
+                  "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-24",
+                  "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-23",
+                  "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-26",
+                  "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-25",
+                  "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-21",
+                  "align-items-xs-center": "MuiGrid-align-items-xs-center-18",
+                  "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-20",
+                  "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-19",
+                  "container": "MuiGrid-container-10",
+                  "direction-xs-column": "MuiGrid-direction-xs-column-13",
+                  "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-14",
+                  "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-15",
+                  "grid-lg-1": "MuiGrid-grid-lg-1-81",
+                  "grid-lg-10": "MuiGrid-grid-lg-10-90",
+                  "grid-lg-11": "MuiGrid-grid-lg-11-91",
+                  "grid-lg-12": "MuiGrid-grid-lg-12-92",
+                  "grid-lg-2": "MuiGrid-grid-lg-2-82",
+                  "grid-lg-3": "MuiGrid-grid-lg-3-83",
+                  "grid-lg-4": "MuiGrid-grid-lg-4-84",
+                  "grid-lg-5": "MuiGrid-grid-lg-5-85",
+                  "grid-lg-6": "MuiGrid-grid-lg-6-86",
+                  "grid-lg-7": "MuiGrid-grid-lg-7-87",
+                  "grid-lg-8": "MuiGrid-grid-lg-8-88",
+                  "grid-lg-9": "MuiGrid-grid-lg-9-89",
+                  "grid-lg-auto": "MuiGrid-grid-lg-auto-79",
+                  "grid-lg-true": "MuiGrid-grid-lg-true-80",
+                  "grid-md-1": "MuiGrid-grid-md-1-67",
+                  "grid-md-10": "MuiGrid-grid-md-10-76",
+                  "grid-md-11": "MuiGrid-grid-md-11-77",
+                  "grid-md-12": "MuiGrid-grid-md-12-78",
+                  "grid-md-2": "MuiGrid-grid-md-2-68",
+                  "grid-md-3": "MuiGrid-grid-md-3-69",
+                  "grid-md-4": "MuiGrid-grid-md-4-70",
+                  "grid-md-5": "MuiGrid-grid-md-5-71",
+                  "grid-md-6": "MuiGrid-grid-md-6-72",
+                  "grid-md-7": "MuiGrid-grid-md-7-73",
+                  "grid-md-8": "MuiGrid-grid-md-8-74",
+                  "grid-md-9": "MuiGrid-grid-md-9-75",
+                  "grid-md-auto": "MuiGrid-grid-md-auto-65",
+                  "grid-md-true": "MuiGrid-grid-md-true-66",
+                  "grid-sm-1": "MuiGrid-grid-sm-1-53",
+                  "grid-sm-10": "MuiGrid-grid-sm-10-62",
+                  "grid-sm-11": "MuiGrid-grid-sm-11-63",
+                  "grid-sm-12": "MuiGrid-grid-sm-12-64",
+                  "grid-sm-2": "MuiGrid-grid-sm-2-54",
+                  "grid-sm-3": "MuiGrid-grid-sm-3-55",
+                  "grid-sm-4": "MuiGrid-grid-sm-4-56",
+                  "grid-sm-5": "MuiGrid-grid-sm-5-57",
+                  "grid-sm-6": "MuiGrid-grid-sm-6-58",
+                  "grid-sm-7": "MuiGrid-grid-sm-7-59",
+                  "grid-sm-8": "MuiGrid-grid-sm-8-60",
+                  "grid-sm-9": "MuiGrid-grid-sm-9-61",
+                  "grid-sm-auto": "MuiGrid-grid-sm-auto-51",
+                  "grid-sm-true": "MuiGrid-grid-sm-true-52",
+                  "grid-xl-1": "MuiGrid-grid-xl-1-95",
+                  "grid-xl-10": "MuiGrid-grid-xl-10-104",
+                  "grid-xl-11": "MuiGrid-grid-xl-11-105",
+                  "grid-xl-12": "MuiGrid-grid-xl-12-106",
+                  "grid-xl-2": "MuiGrid-grid-xl-2-96",
+                  "grid-xl-3": "MuiGrid-grid-xl-3-97",
+                  "grid-xl-4": "MuiGrid-grid-xl-4-98",
+                  "grid-xl-5": "MuiGrid-grid-xl-5-99",
+                  "grid-xl-6": "MuiGrid-grid-xl-6-100",
+                  "grid-xl-7": "MuiGrid-grid-xl-7-101",
+                  "grid-xl-8": "MuiGrid-grid-xl-8-102",
+                  "grid-xl-9": "MuiGrid-grid-xl-9-103",
+                  "grid-xl-auto": "MuiGrid-grid-xl-auto-93",
+                  "grid-xl-true": "MuiGrid-grid-xl-true-94",
+                  "grid-xs-1": "MuiGrid-grid-xs-1-39",
+                  "grid-xs-10": "MuiGrid-grid-xs-10-48",
+                  "grid-xs-11": "MuiGrid-grid-xs-11-49",
+                  "grid-xs-12": "MuiGrid-grid-xs-12-50",
+                  "grid-xs-2": "MuiGrid-grid-xs-2-40",
+                  "grid-xs-3": "MuiGrid-grid-xs-3-41",
+                  "grid-xs-4": "MuiGrid-grid-xs-4-42",
+                  "grid-xs-5": "MuiGrid-grid-xs-5-43",
+                  "grid-xs-6": "MuiGrid-grid-xs-6-44",
+                  "grid-xs-7": "MuiGrid-grid-xs-7-45",
+                  "grid-xs-8": "MuiGrid-grid-xs-8-46",
+                  "grid-xs-9": "MuiGrid-grid-xs-9-47",
+                  "grid-xs-auto": "MuiGrid-grid-xs-auto-37",
+                  "grid-xs-true": "MuiGrid-grid-xs-true-38",
+                  "item": "MuiGrid-item-11",
+                  "justify-xs-center": "MuiGrid-justify-xs-center-27",
+                  "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-28",
+                  "justify-xs-space-around": "MuiGrid-justify-xs-space-around-30",
+                  "justify-xs-space-between": "MuiGrid-justify-xs-space-between-29",
+                  "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-31",
+                  "spacing-xs-16": "MuiGrid-spacing-xs-16-33",
+                  "spacing-xs-24": "MuiGrid-spacing-xs-24-34",
+                  "spacing-xs-32": "MuiGrid-spacing-xs-32-35",
+                  "spacing-xs-40": "MuiGrid-spacing-xs-40-36",
+                  "spacing-xs-8": "MuiGrid-spacing-xs-8-32",
+                  "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-16",
+                  "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-17",
+                  "zeroMinWidth": "MuiGrid-zeroMinWidth-12",
+                }
+              }
+              component="div"
+              container={false}
+              direction="row"
+              item={true}
+              justify="flex-start"
+              lg={false}
+              md={false}
+              sm={false}
+              spacing={0}
+              wrap="wrap"
+              xl={false}
+              xs={false}
+              zeroMinWidth={false}
+            >
+              <div
+                className="MuiGrid-item-11"
+              >
+                <WithStyles(Avatar)
+                  className="SocialMediaButtons-avatar-1 SocialMediaButtons-backgroundfacebook-4"
+                >
+                  <Avatar
+                    className="SocialMediaButtons-avatar-1 SocialMediaButtons-backgroundfacebook-4"
+                    classes={
+                      Object {
+                        "colorDefault": "MuiAvatar-colorDefault-108",
+                        "img": "MuiAvatar-img-109",
+                        "root": "MuiAvatar-root-107",
+                      }
+                    }
+                    component="div"
+                  >
+                    <div
+                      className="MuiAvatar-root-107 MuiAvatar-colorDefault-108 SocialMediaButtons-avatar-1 SocialMediaButtons-backgroundfacebook-4"
+                    >
+                      <WithStyles(IconButton)
+                        href="/auth/facebook/"
+                      >
+                        <IconButton
+                          classes={
+                            Object {
+                              "colorInherit": "MuiIconButton-colorInherit-111",
+                              "colorPrimary": "MuiIconButton-colorPrimary-112",
+                              "colorSecondary": "MuiIconButton-colorSecondary-113",
+                              "disabled": "MuiIconButton-disabled-114",
+                              "label": "MuiIconButton-label-115",
+                              "root": "MuiIconButton-root-110",
+                            }
+                          }
+                          color="default"
+                          disabled={false}
+                          href="/auth/facebook/"
+                        >
+                          <WithStyles(ButtonBase)
+                            centerRipple={true}
+                            className="MuiIconButton-root-110"
+                            disabled={false}
+                            focusRipple={true}
+                            href="/auth/facebook/"
+                          >
+                            <ButtonBase
+                              centerRipple={true}
+                              className="MuiIconButton-root-110"
+                              classes={
+                                Object {
+                                  "disabled": "MuiButtonBase-disabled-117",
+                                  "focusVisible": "MuiButtonBase-focusVisible-118",
+                                  "root": "MuiButtonBase-root-116",
+                                }
+                              }
+                              component="button"
+                              disableRipple={false}
+                              disableTouchRipple={false}
+                              disabled={false}
+                              focusRipple={true}
+                              href="/auth/facebook/"
+                              tabIndex="0"
+                              type="button"
+                            >
+                              <a
+                                className="MuiButtonBase-root-116 MuiIconButton-root-110"
+                                href="/auth/facebook/"
+                                onBlur={[Function]}
+                                onContextMenu={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseUp={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchMove={[Function]}
+                                onTouchStart={[Function]}
+                                role="button"
+                                tabIndex="0"
+                              >
+                                <span
+                                  className="MuiIconButton-label-115"
+                                >
+                                  <Icon
+                                    className="SocialMediaButtons-colorwhite-9"
+                                  >
+                                    <WithStyles(SvgIcon)
+                                      className="SocialMediaButtons-colorwhite-9"
+                                    >
+                                      <SvgIcon
+                                        className="SocialMediaButtons-colorwhite-9"
+                                        classes={
+                                          Object {
+                                            "colorAction": "MuiSvgIcon-colorAction-122",
+                                            "colorDisabled": "MuiSvgIcon-colorDisabled-124",
+                                            "colorError": "MuiSvgIcon-colorError-123",
+                                            "colorPrimary": "MuiSvgIcon-colorPrimary-120",
+                                            "colorSecondary": "MuiSvgIcon-colorSecondary-121",
+                                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-125",
+                                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-127",
+                                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-126",
+                                            "root": "MuiSvgIcon-root-119",
+                                          }
+                                        }
+                                        color="inherit"
+                                        component="svg"
+                                        fontSize="default"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          className="MuiSvgIcon-root-119 SocialMediaButtons-colorwhite-9"
+                                          focusable="false"
+                                          role="presentation"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M17,2V2H17V6H15C14.31,6 14,6.81 14,7.5V10H14L17,10V14H14V22H10V14H7V10H10V6C10,3.79 11.79,2 14,2H17Z"
+                                          />
+                                        </svg>
+                                      </SvgIcon>
+                                    </WithStyles(SvgIcon)>
+                                  </Icon>
+                                </span>
+                                <NoSsr
+                                  defer={false}
+                                  fallback={null}
+                                >
+                                  <WithStyles(TouchRipple)
+                                    center={true}
+                                    innerRef={[Function]}
+                                  >
+                                    <TouchRipple
+                                      center={true}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child-132",
+                                          "childLeaving": "MuiTouchRipple-childLeaving-133",
+                                          "childPulsate": "MuiTouchRipple-childPulsate-134",
+                                          "ripple": "MuiTouchRipple-ripple-129",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate-131",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible-130",
+                                          "root": "MuiTouchRipple-root-128",
+                                        }
+                                      }
+                                    >
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        className="MuiTouchRipple-root-128"
+                                        component="span"
+                                        enter={true}
+                                        exit={true}
+                                      >
+                                        <span
+                                          className="MuiTouchRipple-root-128"
+                                        />
+                                      </TransitionGroup>
+                                    </TouchRipple>
+                                  </WithStyles(TouchRipple)>
+                                </NoSsr>
+                              </a>
+                            </ButtonBase>
+                          </WithStyles(ButtonBase)>
+                        </IconButton>
+                      </WithStyles(IconButton)>
+                    </div>
+                  </Avatar>
+                </WithStyles(Avatar)>
+              </div>
+            </Grid>
+          </WithStyles(Grid)>
+          <WithStyles(Grid)
+            item={true}
+            key="1"
+          >
+            <Grid
+              alignContent="stretch"
+              alignItems="stretch"
+              classes={
+                Object {
+                  "align-content-xs-center": "MuiGrid-align-content-xs-center-22",
+                  "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-24",
+                  "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-23",
+                  "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-26",
+                  "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-25",
+                  "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-21",
+                  "align-items-xs-center": "MuiGrid-align-items-xs-center-18",
+                  "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-20",
+                  "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-19",
+                  "container": "MuiGrid-container-10",
+                  "direction-xs-column": "MuiGrid-direction-xs-column-13",
+                  "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-14",
+                  "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-15",
+                  "grid-lg-1": "MuiGrid-grid-lg-1-81",
+                  "grid-lg-10": "MuiGrid-grid-lg-10-90",
+                  "grid-lg-11": "MuiGrid-grid-lg-11-91",
+                  "grid-lg-12": "MuiGrid-grid-lg-12-92",
+                  "grid-lg-2": "MuiGrid-grid-lg-2-82",
+                  "grid-lg-3": "MuiGrid-grid-lg-3-83",
+                  "grid-lg-4": "MuiGrid-grid-lg-4-84",
+                  "grid-lg-5": "MuiGrid-grid-lg-5-85",
+                  "grid-lg-6": "MuiGrid-grid-lg-6-86",
+                  "grid-lg-7": "MuiGrid-grid-lg-7-87",
+                  "grid-lg-8": "MuiGrid-grid-lg-8-88",
+                  "grid-lg-9": "MuiGrid-grid-lg-9-89",
+                  "grid-lg-auto": "MuiGrid-grid-lg-auto-79",
+                  "grid-lg-true": "MuiGrid-grid-lg-true-80",
+                  "grid-md-1": "MuiGrid-grid-md-1-67",
+                  "grid-md-10": "MuiGrid-grid-md-10-76",
+                  "grid-md-11": "MuiGrid-grid-md-11-77",
+                  "grid-md-12": "MuiGrid-grid-md-12-78",
+                  "grid-md-2": "MuiGrid-grid-md-2-68",
+                  "grid-md-3": "MuiGrid-grid-md-3-69",
+                  "grid-md-4": "MuiGrid-grid-md-4-70",
+                  "grid-md-5": "MuiGrid-grid-md-5-71",
+                  "grid-md-6": "MuiGrid-grid-md-6-72",
+                  "grid-md-7": "MuiGrid-grid-md-7-73",
+                  "grid-md-8": "MuiGrid-grid-md-8-74",
+                  "grid-md-9": "MuiGrid-grid-md-9-75",
+                  "grid-md-auto": "MuiGrid-grid-md-auto-65",
+                  "grid-md-true": "MuiGrid-grid-md-true-66",
+                  "grid-sm-1": "MuiGrid-grid-sm-1-53",
+                  "grid-sm-10": "MuiGrid-grid-sm-10-62",
+                  "grid-sm-11": "MuiGrid-grid-sm-11-63",
+                  "grid-sm-12": "MuiGrid-grid-sm-12-64",
+                  "grid-sm-2": "MuiGrid-grid-sm-2-54",
+                  "grid-sm-3": "MuiGrid-grid-sm-3-55",
+                  "grid-sm-4": "MuiGrid-grid-sm-4-56",
+                  "grid-sm-5": "MuiGrid-grid-sm-5-57",
+                  "grid-sm-6": "MuiGrid-grid-sm-6-58",
+                  "grid-sm-7": "MuiGrid-grid-sm-7-59",
+                  "grid-sm-8": "MuiGrid-grid-sm-8-60",
+                  "grid-sm-9": "MuiGrid-grid-sm-9-61",
+                  "grid-sm-auto": "MuiGrid-grid-sm-auto-51",
+                  "grid-sm-true": "MuiGrid-grid-sm-true-52",
+                  "grid-xl-1": "MuiGrid-grid-xl-1-95",
+                  "grid-xl-10": "MuiGrid-grid-xl-10-104",
+                  "grid-xl-11": "MuiGrid-grid-xl-11-105",
+                  "grid-xl-12": "MuiGrid-grid-xl-12-106",
+                  "grid-xl-2": "MuiGrid-grid-xl-2-96",
+                  "grid-xl-3": "MuiGrid-grid-xl-3-97",
+                  "grid-xl-4": "MuiGrid-grid-xl-4-98",
+                  "grid-xl-5": "MuiGrid-grid-xl-5-99",
+                  "grid-xl-6": "MuiGrid-grid-xl-6-100",
+                  "grid-xl-7": "MuiGrid-grid-xl-7-101",
+                  "grid-xl-8": "MuiGrid-grid-xl-8-102",
+                  "grid-xl-9": "MuiGrid-grid-xl-9-103",
+                  "grid-xl-auto": "MuiGrid-grid-xl-auto-93",
+                  "grid-xl-true": "MuiGrid-grid-xl-true-94",
+                  "grid-xs-1": "MuiGrid-grid-xs-1-39",
+                  "grid-xs-10": "MuiGrid-grid-xs-10-48",
+                  "grid-xs-11": "MuiGrid-grid-xs-11-49",
+                  "grid-xs-12": "MuiGrid-grid-xs-12-50",
+                  "grid-xs-2": "MuiGrid-grid-xs-2-40",
+                  "grid-xs-3": "MuiGrid-grid-xs-3-41",
+                  "grid-xs-4": "MuiGrid-grid-xs-4-42",
+                  "grid-xs-5": "MuiGrid-grid-xs-5-43",
+                  "grid-xs-6": "MuiGrid-grid-xs-6-44",
+                  "grid-xs-7": "MuiGrid-grid-xs-7-45",
+                  "grid-xs-8": "MuiGrid-grid-xs-8-46",
+                  "grid-xs-9": "MuiGrid-grid-xs-9-47",
+                  "grid-xs-auto": "MuiGrid-grid-xs-auto-37",
+                  "grid-xs-true": "MuiGrid-grid-xs-true-38",
+                  "item": "MuiGrid-item-11",
+                  "justify-xs-center": "MuiGrid-justify-xs-center-27",
+                  "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-28",
+                  "justify-xs-space-around": "MuiGrid-justify-xs-space-around-30",
+                  "justify-xs-space-between": "MuiGrid-justify-xs-space-between-29",
+                  "justify-xs-space-evenly": "MuiGrid-justify-xs-space-evenly-31",
+                  "spacing-xs-16": "MuiGrid-spacing-xs-16-33",
+                  "spacing-xs-24": "MuiGrid-spacing-xs-24-34",
+                  "spacing-xs-32": "MuiGrid-spacing-xs-32-35",
+                  "spacing-xs-40": "MuiGrid-spacing-xs-40-36",
+                  "spacing-xs-8": "MuiGrid-spacing-xs-8-32",
+                  "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-16",
+                  "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-17",
+                  "zeroMinWidth": "MuiGrid-zeroMinWidth-12",
+                }
+              }
+              component="div"
+              container={false}
+              direction="row"
+              item={true}
+              justify="flex-start"
+              lg={false}
+              md={false}
+              sm={false}
+              spacing={0}
+              wrap="wrap"
+              xl={false}
+              xs={false}
+              zeroMinWidth={false}
+            >
+              <div
+                className="MuiGrid-item-11"
+              >
+                <WithStyles(Avatar)
+                  className="SocialMediaButtons-avatar-1 SocialMediaButtons-backgroundgoogle-6"
+                >
+                  <Avatar
+                    className="SocialMediaButtons-avatar-1 SocialMediaButtons-backgroundgoogle-6"
+                    classes={
+                      Object {
+                        "colorDefault": "MuiAvatar-colorDefault-108",
+                        "img": "MuiAvatar-img-109",
+                        "root": "MuiAvatar-root-107",
+                      }
+                    }
+                    component="div"
+                  >
+                    <div
+                      className="MuiAvatar-root-107 MuiAvatar-colorDefault-108 SocialMediaButtons-avatar-1 SocialMediaButtons-backgroundgoogle-6"
+                    >
+                      <WithStyles(IconButton)
+                        href="/auth/google/"
+                      >
+                        <IconButton
+                          classes={
+                            Object {
+                              "colorInherit": "MuiIconButton-colorInherit-111",
+                              "colorPrimary": "MuiIconButton-colorPrimary-112",
+                              "colorSecondary": "MuiIconButton-colorSecondary-113",
+                              "disabled": "MuiIconButton-disabled-114",
+                              "label": "MuiIconButton-label-115",
+                              "root": "MuiIconButton-root-110",
+                            }
+                          }
+                          color="default"
+                          disabled={false}
+                          href="/auth/google/"
+                        >
+                          <WithStyles(ButtonBase)
+                            centerRipple={true}
+                            className="MuiIconButton-root-110"
+                            disabled={false}
+                            focusRipple={true}
+                            href="/auth/google/"
+                          >
+                            <ButtonBase
+                              centerRipple={true}
+                              className="MuiIconButton-root-110"
+                              classes={
+                                Object {
+                                  "disabled": "MuiButtonBase-disabled-117",
+                                  "focusVisible": "MuiButtonBase-focusVisible-118",
+                                  "root": "MuiButtonBase-root-116",
+                                }
+                              }
+                              component="button"
+                              disableRipple={false}
+                              disableTouchRipple={false}
+                              disabled={false}
+                              focusRipple={true}
+                              href="/auth/google/"
+                              tabIndex="0"
+                              type="button"
+                            >
+                              <a
+                                className="MuiButtonBase-root-116 MuiIconButton-root-110"
+                                href="/auth/google/"
+                                onBlur={[Function]}
+                                onContextMenu={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyUp={[Function]}
+                                onMouseDown={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseUp={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchMove={[Function]}
+                                onTouchStart={[Function]}
+                                role="button"
+                                tabIndex="0"
+                              >
+                                <span
+                                  className="MuiIconButton-label-115"
+                                >
+                                  <Icon
+                                    className="SocialMediaButtons-colorwhite-9"
+                                  >
+                                    <WithStyles(SvgIcon)
+                                      className="SocialMediaButtons-colorwhite-9"
+                                    >
+                                      <SvgIcon
+                                        className="SocialMediaButtons-colorwhite-9"
+                                        classes={
+                                          Object {
+                                            "colorAction": "MuiSvgIcon-colorAction-122",
+                                            "colorDisabled": "MuiSvgIcon-colorDisabled-124",
+                                            "colorError": "MuiSvgIcon-colorError-123",
+                                            "colorPrimary": "MuiSvgIcon-colorPrimary-120",
+                                            "colorSecondary": "MuiSvgIcon-colorSecondary-121",
+                                            "fontSizeInherit": "MuiSvgIcon-fontSizeInherit-125",
+                                            "fontSizeLarge": "MuiSvgIcon-fontSizeLarge-127",
+                                            "fontSizeSmall": "MuiSvgIcon-fontSizeSmall-126",
+                                            "root": "MuiSvgIcon-root-119",
+                                          }
+                                        }
+                                        color="inherit"
+                                        component="svg"
+                                        fontSize="default"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <svg
+                                          aria-hidden="true"
+                                          className="MuiSvgIcon-root-119 SocialMediaButtons-colorwhite-9"
+                                          focusable="false"
+                                          role="presentation"
+                                          viewBox="0 0 24 24"
+                                        >
+                                          <path
+                                            d="M21.35,11.1H12.18V13.83H18.69C18.36,17.64 15.19,19.27 12.19,19.27C8.36,19.27 5,16.25 5,12C5,7.9 8.2,4.73 12.2,4.73C15.29,4.73 17.1,6.7 17.1,6.7L19,4.72C19,4.72 16.56,2 12.1,2C6.42,2 2.03,6.8 2.03,12C2.03,17.05 6.16,22 12.25,22C17.6,22 21.5,18.33 21.5,12.91C21.5,11.76 21.35,11.1 21.35,11.1V11.1Z"
+                                          />
+                                        </svg>
+                                      </SvgIcon>
+                                    </WithStyles(SvgIcon)>
+                                  </Icon>
+                                </span>
+                                <NoSsr
+                                  defer={false}
+                                  fallback={null}
+                                >
+                                  <WithStyles(TouchRipple)
+                                    center={true}
+                                    innerRef={[Function]}
+                                  >
+                                    <TouchRipple
+                                      center={true}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child-132",
+                                          "childLeaving": "MuiTouchRipple-childLeaving-133",
+                                          "childPulsate": "MuiTouchRipple-childPulsate-134",
+                                          "ripple": "MuiTouchRipple-ripple-129",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate-131",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible-130",
+                                          "root": "MuiTouchRipple-root-128",
+                                        }
+                                      }
+                                    >
+                                      <TransitionGroup
+                                        childFactory={[Function]}
+                                        className="MuiTouchRipple-root-128"
+                                        component="span"
+                                        enter={true}
+                                        exit={true}
+                                      >
+                                        <span
+                                          className="MuiTouchRipple-root-128"
+                                        />
+                                      </TransitionGroup>
+                                    </TouchRipple>
+                                  </WithStyles(TouchRipple)>
+                                </NoSsr>
+                              </a>
+                            </ButtonBase>
+                          </WithStyles(ButtonBase)>
+                        </IconButton>
+                      </WithStyles(IconButton)>
+                    </div>
+                  </Avatar>
+                </WithStyles(Avatar)>
+              </div>
+            </Grid>
+          </WithStyles(Grid)>
+        </div>
+      </Grid>
+    </WithStyles(Grid)>
+  </SocialMediaButtons>
+</WithStyles(SocialMediaButtons)>
+`;
