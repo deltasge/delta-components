@@ -1,2 +1,4 @@
 import SocialMediaButtons from './components/SocialMediaButtons'
-export default SocialMediaButtons
+export default {
+  SocialMediaButtons
+}
