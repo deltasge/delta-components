@@ -1,6 +1,6 @@
 {
   "name": "delta-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Componentes Padrões",
   "main": "lib/index.js",
   "scripts": {

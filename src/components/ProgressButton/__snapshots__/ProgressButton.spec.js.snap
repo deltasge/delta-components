@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressButton /> matches the snapshot 1`] = `
+<WithStyles(ProgressButton)
+  label="Label"
+  type="button"
+>
+  <ProgressButton
+    classes={
+      Object {
+        "button": "ProgressButton-button-4",
+        "buttonProgress": "ProgressButton-buttonProgress-3",
+        "rootButton": "ProgressButton-rootButton-1",
+        "wrapperButton": "ProgressButton-wrapperButton-2",
+      }
+    }
+    color="default"
+    component="button"
+    disabled={false}
+    label="Label"
+    type="button"
+    variant="text"
+  >
+    <div
+      className="ProgressButton-rootButton-1"
+    >
+      <div
+        className="ProgressButton-wrapperButton-2"
+      >
+        <WithStyles(Button)
+          className="ProgressButton-button-4"
+          color="default"
+          component="button"
+          disabled={false}
+          onClick={null}
+          type="button"
+          variant="text"
+        >
+          <Button
+            className="ProgressButton-button-4"
+            classes={
+              Object {
+                "colorInherit": "MuiButton-colorInherit-26",
+                "contained": "MuiButton-contained-16",
+                "containedPrimary": "MuiButton-containedPrimary-17",
+                "containedSecondary": "MuiButton-containedSecondary-18",
+                "disabled": "MuiButton-disabled-25",
+                "extendedFab": "MuiButton-extendedFab-23",
+                "fab": "MuiButton-fab-22",
+                "flat": "MuiButton-flat-10",
+                "flatPrimary": "MuiButton-flatPrimary-11",
+                "flatSecondary": "MuiButton-flatSecondary-12",
+                "focusVisible": "MuiButton-focusVisible-24",
+                "fullWidth": "MuiButton-fullWidth-30",
+                "label": "MuiButton-label-6",
+                "mini": "MuiButton-mini-27",
+                "outlined": "MuiButton-outlined-13",
+                "outlinedPrimary": "MuiButton-outlinedPrimary-14",
+                "outlinedSecondary": "MuiButton-outlinedSecondary-15",
+                "raised": "MuiButton-raised-19",
+                "raisedPrimary": "MuiButton-raisedPrimary-20",
+                "raisedSecondary": "MuiButton-raisedSecondary-21",
+                "root": "MuiButton-root-5",
+                "sizeLarge": "MuiButton-sizeLarge-29",
+                "sizeSmall": "MuiButton-sizeSmall-28",
+                "text": "MuiButton-text-7",
+                "textPrimary": "MuiButton-textPrimary-8",
+                "textSecondary": "MuiButton-textSecondary-9",
+              }
+            }
+            color="default"
+            component="button"
+            disableFocusRipple={false}
+            disabled={false}
+            fullWidth={false}
+            mini={false}
+            onClick={null}
+            size="medium"
+            type="button"
+            variant="text"
+          >
+            <WithStyles(ButtonBase)
+              className="MuiButton-root-5 MuiButton-text-7 MuiButton-flat-10 ProgressButton-button-4"
+              component="button"
+              disabled={false}
+              focusRipple={true}
+              focusVisibleClassName="MuiButton-focusVisible-24"
+              onClick={null}
+              type="button"
+            >
+              <ButtonBase
+                centerRipple={false}
+                className="MuiButton-root-5 MuiButton-text-7 MuiButton-flat-10 ProgressButton-button-4"
+                classes={
+                  Object {
+                    "disabled": "MuiButtonBase-disabled-32",
+                    "focusVisible": "MuiButtonBase-focusVisible-33",
+                    "root": "MuiButtonBase-root-31",
+                  }
+                }
+                component="button"
+                disableRipple={false}
+                disableTouchRipple={false}
+                disabled={false}
+                focusRipple={true}
+                focusVisibleClassName="MuiButton-focusVisible-24"
+                onClick={null}
+                tabIndex="0"
+                type="button"
+              >
+                <button
+                  className="MuiButtonBase-root-31 MuiButton-root-5 MuiButton-text-7 MuiButton-flat-10 ProgressButton-button-4"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onClick={null}
+                  onContextMenu={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  tabIndex="0"
+                  type="button"
+                >
+                  <span
+                    className="MuiButton-label-6"
+                  >
+                    Label
+                  </span>
+                  <NoSsr
+                    defer={false}
+                    fallback={null}
+                  >
+                    <WithStyles(TouchRipple)
+                      center={false}
+                      innerRef={[Function]}
+                    >
+                      <TouchRipple
+                        center={false}
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child-38",
+                            "childLeaving": "MuiTouchRipple-childLeaving-39",
+                            "childPulsate": "MuiTouchRipple-childPulsate-40",
+                            "ripple": "MuiTouchRipple-ripple-35",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate-37",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible-36",
+                            "root": "MuiTouchRipple-root-34",
+                          }
+                        }
+                      >
+                        <TransitionGroup
+                          childFactory={[Function]}
+                          className="MuiTouchRipple-root-34"
+                          component="span"
+                          enter={true}
+                          exit={true}
+                        >
+                          <span
+                            className="MuiTouchRipple-root-34"
+                          />
+                        </TransitionGroup>
+                      </TouchRipple>
+                    </WithStyles(TouchRipple)>
+                  </NoSsr>
+                </button>
+              </ButtonBase>
+            </WithStyles(ButtonBase)>
+          </Button>
+        </WithStyles(Button)>
+      </div>
+    </div>
+  </ProgressButton>
+</WithStyles(ProgressButton)>
+`;
