@@ -1,4 +1,1 @@
-import SocialMediaButtons from './components/SocialMediaButtons'
-export default {
-  SocialMediaButtons
-}
+export { default as SocialMediaButtons } from './components/SocialMediaButtons'
