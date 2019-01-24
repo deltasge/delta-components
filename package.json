@@ -1,6 +1,6 @@
 {
   "name": "delta-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Componentes Padrões",
   "main": "lib/index.js",
   "scripts": {
@@ -36,6 +36,7 @@
   "homepage": "https://github.com/deltasge/delta-components#readme",
   "devDependencies": {
     "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2",
     "@material-ui/utils": "^3.0.0-alpha.3",
     "@webpack-blocks/babel6": "^0.4.1",
     "@webpack-blocks/postcss": "^0.4.3",
@@ -63,7 +64,7 @@
     "react-dom": "^16.3.2",
     "react-styleguidist": "^7.3.9",
     "react-test-renderer": "^16.7.0",
-    "@material-ui/icons": "^3.0.2",
+    "sinon": "^7.2.3",
     "standard": "^12.0.1"
   },
   "peerDependencies": {
