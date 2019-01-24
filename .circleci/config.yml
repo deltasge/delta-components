@@ -15,10 +15,10 @@ jobs:
       - run: npm install
       - run:
           name: Run build
-          command: npm build
+          command: npm run build
       - run:
           name: Run tests
-          command: npm test:unit
+          command: npm run test:unit
       - save_cache:
           paths:
             - node_modules
