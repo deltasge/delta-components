@@ -24,9 +24,10 @@
     "Material-UI",
     "Material",
     "UI",
-    "Social",
-    "Media",
-    "Buttons"
+    "Social Media Buttons",
+    "Context Menu",
+    "Progress Button",
+    "Empty List"
   ],
   "author": "Delta Software",
   "license": "ISC",
