@@ -63,16 +63,18 @@
     "react-dom": "^16.3.2",
     "react-styleguidist": "^7.3.9",
     "react-test-renderer": "^16.7.0",
+    "@material-ui/icons": "^3.0.2",
     "standard": "^12.0.1"
   },
   "peerDependencies": {
     "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2",
     "@material-ui/utils": "^3.0.0-alpha.3",
     "react": "^16.7.0"
   },
   "dependencies": {
-    "prop-types": "^15.5.8",
-    "classnames": "^2.2.5"
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.8"
   },
   "standard": {
     "parser": "babel-eslint"
