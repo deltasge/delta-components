@@ -14,6 +14,11 @@ class Snackbar extends React.Component {
   handleClose = async (event, reason) => {
     if (reason === 'clickaway') return
     await this.setState({ open: false })
+    if (this.props.onExited) await this.props.onExited()
+  }
+
+  onExited = async () => {
+    if (this.props.onExited) await this.props.onExited()
   }
 
   render () {
@@ -36,6 +41,7 @@ Snackbar.propTypes = {
   classes: PropTypes.object.isRequired,
   message: PropTypes.node,
   avatar: PropTypes.string,
+  onExited: PropTypes.func,
   anchorOrigin: PropTypes.shape({
     horizontal: PropTypes.oneOf(['left', 'center', 'right']).isRequired,
     vertical: PropTypes.oneOf(['top', 'bottom']).isRequired
