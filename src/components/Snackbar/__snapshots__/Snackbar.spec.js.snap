@@ -37,6 +37,7 @@ exports[`<Snackbar /> matches the snapshot 1`] = `
       }
       className="Snackbar-snackbar-8"
       onClose={[Function]}
+      onExited={[Function]}
       open={true}
     >
       <Snackbar
@@ -61,6 +62,7 @@ exports[`<Snackbar /> matches the snapshot 1`] = `
         }
         disableWindowBlurListener={false}
         onClose={[Function]}
+        onExited={[Function]}
         open={true}
         transitionDuration={
           Object {
