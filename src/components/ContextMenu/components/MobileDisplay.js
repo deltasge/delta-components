@@ -14,7 +14,7 @@ const MobileDisplay = ({ itens, data, anchorEl, handleClick, handleClose, select
     <IconButton onClick={(e) => handleClick(e, data)}><MoreVertIcon /></IconButton>
     <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
       {itens.map((item, i) => (
-        <MenuItem key={i}
+        <MenuItem key={i} aria-label={item.ariaLabel || item.name}
           onClick={(event) => {
             item.handleClick(selected, event)
             handleClose()
@@ -44,7 +44,8 @@ MobileDisplay.protoTypes = {
   itens: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
     icon: PropTypes.oneOfType([PropTypes.element, PropTypes.func, PropTypes.node]),
-    handleClick: PropTypes.func.isRequired
+    handleClick: PropTypes.func.isRequired,
+    ariaLabel: PropTypes.string
   })).isRequired,
   data: PropTypes.shape({
     id: PropTypes.oneOfType([PropTypes.string, PropTypes.number])

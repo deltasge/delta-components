@@ -10,8 +10,9 @@ describe('<MobileDisplay />', () => {
     const itens = [
       {
         name: 'Item Menu',
-        icon: <DeleteIcon aria-label='Delete' />,
-        handleClick: () => (null)
+        icon: <DeleteIcon />,
+        handleClick: () => (null),
+        ariaLabel: 'Deletes'
       }
     ]
     const data = {

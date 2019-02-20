@@ -52,7 +52,9 @@ ContextMenu.propTypes = {
      * Função ao clicar no item do menu, r
      * Retorna o valor da props data.
      * */
-    handleClick: PropTypes.func.isRequired
+    handleClick: PropTypes.func.isRequired,
+    /** ARIA label */
+    ariaLabel: PropTypes.string
   })).isRequired,
   /** Valor retornado no click */
   data: PropTypes.any.isRequired
