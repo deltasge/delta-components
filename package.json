@@ -68,17 +68,19 @@
     "mdi-material-ui": "^5.8.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-rating": "^1.6.2",
     "react-styleguidist": "^7.3.9",
     "react-test-renderer": "^16.7.0",
     "sinon": "^7.2.3",
     "standard": "^12.0.1"
   },
   "peerDependencies": {
-    "material-ui-toggle-icon": "^1.0.2",
     "@material-ui/core": "^3.9.0",
     "@material-ui/icons": "^3.0.2",
     "@material-ui/utils": "^3.0.0-alpha.3",
-    "react": "^16.7.0"
+    "material-ui-toggle-icon": "^1.0.2",
+    "react": "^16.7.0",
+    "react-rating": "^1.6.2"
   },
   "dependencies": {
     "classnames": "^2.2.5",
