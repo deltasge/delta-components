@@ -7,8 +7,6 @@ import withStyles from '@material-ui/core/styles/withStyles'
 import StarBorderIcon from '@material-ui/icons/StarBorderOutlined'
 import StarIcon from '@material-ui/icons/Star'
 
-console.log(Rating)
-
 export const styles = () => ({
   icon: {
     color: 'rgb(255, 204, 0)'
