@@ -530,6 +530,7 @@ exports[`<Snackbar /> matches the snapshot 1`] = `
                         <WithStyles(SnackbarContent)
                           action={
                             Array [
+                              undefined,
                               <WithStyles(IconButton)
                                 aria-label="Close"
                                 color="inherit"
@@ -559,6 +560,7 @@ exports[`<Snackbar /> matches the snapshot 1`] = `
                           <SnackbarContent
                             action={
                               Array [
+                                undefined,
                                 <WithStyles(IconButton)
                                   aria-label="Close"
                                   color="inherit"

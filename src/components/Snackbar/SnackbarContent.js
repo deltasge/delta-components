@@ -36,6 +36,7 @@ const SnackbarContent = (props) => {
         </span>
       }
       action={[
+        other.actions,
         onClose && <IconButton key='close' aria-label='Close' color='inherit' className={classes.close} onClick={onClose}>
           <CloseIcon className={classes.icon} />
         </IconButton>
@@ -51,7 +52,8 @@ SnackbarContent.propTypes = {
   avatar: PropTypes.string,
   message: PropTypes.node,
   onClose: PropTypes.func,
-  variant: PropTypes.oneOf(['success', 'warning', 'error', 'info'])
+  variant: PropTypes.oneOf(['success', 'warning', 'error', 'info']),
+  actions: PropTypes.node
 }
 
 export default withStyles(styles)(SnackbarContent)

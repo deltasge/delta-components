@@ -26,6 +26,7 @@ exports[`<SnackbarContent /> matches the snapshot 1`] = `
       action={
         Array [
           undefined,
+          undefined,
         ]
       }
       aria-describedby="client-snackbar"
@@ -45,6 +46,7 @@ exports[`<SnackbarContent /> matches the snapshot 1`] = `
       <SnackbarContent
         action={
           Array [
+            undefined,
             undefined,
           ]
         }

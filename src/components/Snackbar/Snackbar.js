@@ -22,11 +22,11 @@ class Snackbar extends React.Component {
   }
 
   render () {
-    const { classes, message, variant, other, anchorOrigin, autoHideDuration, avatar } = this.props
+    const { classes, message, variant, other, anchorOrigin, autoHideDuration, avatar, actions } = this.props
     const { open } = this.state
     return (
       <MUiSnackbar {...other} anchorOrigin={anchorOrigin} open={open} autoHideDuration={autoHideDuration} onExited={this.onExited} className={classes.snackbar} onClose={this.handleClose}>
-        <SnackbarContent variant={variant} message={message} onClose={this.handleClose} avatar={avatar} />
+        <SnackbarContent variant={variant} message={message} onClose={this.handleClose} avatar={avatar} actions={actions} />
       </MUiSnackbar>
     )
   }
@@ -47,7 +47,8 @@ Snackbar.propTypes = {
     vertical: PropTypes.oneOf(['top', 'bottom']).isRequired
   }),
   autoHideDuration: PropTypes.number,
-  variant: PropTypes.oneOf(['success', 'warning', 'error', 'info'])
+  variant: PropTypes.oneOf(['success', 'warning', 'error', 'info']),
+  actions: PropTypes.node
 }
 
 export default withStyles(styles)(Snackbar)

@@ -3,7 +3,7 @@ const { Button } = require('@material-ui/core');
 
 initialState = {
   loading: false,
-  error: false
+  error: null
 };
 loading = () => {
   const { loading } = state
