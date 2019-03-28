@@ -1,6 +1,6 @@
 {
   "name": "delta-components",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Componentes Padrões",
   "main": "lib/index.js",
   "scripts": {
@@ -31,7 +31,8 @@
     "Snackbar",
     "SplashScreen",
     "PasswordField",
-    "UserAvatar"
+    "UserAvatar",
+    "Divider"
   ],
   "author": "Delta Software",
   "license": "ISC",
