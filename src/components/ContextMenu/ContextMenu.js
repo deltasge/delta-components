@@ -27,7 +27,7 @@ class ContextMenu extends React.Component {
 
     return isMobile
       ? <MobileDisplay {...this.props} {...this.state} handleClick={this.handleClick} handleClose={this.handleClose} />
-      : <DesktopDisplay {...this.props} {...this.state} />
+      : <DesktopDisplay {...this.props} {...this.state} handleClick={this.handleClick} handleClose={this.handleClose} />
   }
 }
 
@@ -54,7 +54,9 @@ ContextMenu.propTypes = {
      * */
     handleClick: PropTypes.func.isRequired,
     /** ARIA label */
-    ariaLabel: PropTypes.string
+    ariaLabel: PropTypes.string,
+    /** Fixa este item e o resto vai para contexto */
+    fixed: PropTypes.bool
   })).isRequired,
   /** Valor retornado no click */
   data: PropTypes.any.isRequired
