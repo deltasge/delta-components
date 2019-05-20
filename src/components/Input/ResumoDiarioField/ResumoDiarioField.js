@@ -23,7 +23,7 @@ import styles from './styles'
  * Componente utilizado no resumo diário<br />
  * Retorna um componente conforme os tipos pré-definidos: ALTERNATIVAS, LOGICO, TEXTO e AVALIACAO.
  */
-const ResumoDiarioField = ({ width, readonly, tipo, texto, classes, ...otherProps }) => {
+const ResumoDiarioField = ({ width, readonly, tipo, texto, classes, alternativas, ...otherProps }) => {
   const { fullwidth, ...props } = otherProps
   if (tipo === 'AVALIACAO') {
     return <Rating rating={parseInt(texto || '0')} readonly={readonly} {...props} />
@@ -78,8 +78,9 @@ const ResumoDiarioField = ({ width, readonly, tipo, texto, classes, ...otherProp
     )
   }
   if (tipo === 'ALTERNATIVAS') {
-    const values = ['Péssimo', 'Ruim', 'Normal', 'Bom', 'Ótimo']
+    let values = ['Péssimo', 'Ruim', 'Normal', 'Bom', 'Ótimo']
 
+    if (alternativas) values = alternativas
     if (readonly) {
       return (<Typography>{texto}</Typography>)
     }
@@ -149,7 +150,8 @@ ResumoDiarioField.propTypes = {
   fullwidth: PropTypes.oneOfType([
     PropTypes.bool,
     PropTypes.string
-  ])
+  ]),
+  alternativas: PropTypes.array
 }
 
 export default withStyles(styles)(withWidth()(ResumoDiarioField))
