@@ -1,6 +1,6 @@
 {
   "name": "delta-components",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Componentes Padrões",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "publish-docs": "npm run styleguide:build && npm run gh-pages",
     "gh-pages": "./node_modules/.bin/gh-pages -d styleguide",
     "test:coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
-    "test:unit": "jest",
+    "test:unit": "jest --updateSnapshot --maxWorkers=2",
     "test": "standard && jest",
     "lint": "standard"
   },
